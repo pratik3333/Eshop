@@ -36,8 +36,6 @@ new_emp_1=Employee(first,last,pay)
 print(new_emp_1.email)
 print(new_emp_1.fullname())
 
-
-
 import datetime
 my_date=datetime.date(2021,5,25)
 print(Employee.is_workday(my_date))
